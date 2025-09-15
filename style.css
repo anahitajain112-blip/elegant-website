@@ -1,0 +1,44 @@
+:root {
+  --almond-milk: #F5F0E6;
+  --rich-espresso: #3B2F2F;
+  --dusty-rose: #C08081;
+  --cream-accent: #F3E5AB;
+}
+
+body {
+  margin: 0;
+  font-family: 'Georgia', serif;
+  background-color: var(--almond-milk);
+  color: var(--rich-espresso);
+  line-height: 1.6;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: var(--dusty-rose);
+  color: var(--almond-milk);
+  border-radius: 8px;
+}
+
+header h1 {
+  margin-bottom: 10px;
+  font-size: 2.5em;
+}
+
+.content {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: var(--cream-accent);
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(59, 47, 47, 0.1);
+}
+
+footer {
+  text-align: center;
+  margin-top: 60px;
+  font-size: 0.9em;
+  color: var(--rich-espresso);
+}
